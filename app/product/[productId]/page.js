@@ -1,9 +1,9 @@
 import React from 'react'
 
-const page = () => {
+const page = ({params}) => {
   return (
     <div>
-      <h1>Home page</h1>
+        <h1>This is {params.productId} page</h1>
     </div>
   )
 }
